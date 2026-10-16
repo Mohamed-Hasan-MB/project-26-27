@@ -1,0 +1,167 @@
+{
+  "invention_analysis": {
+    "invention_title": "AI-Based Hydroponic Plant Growth Monitoring System",
+    "technical_domain": "Artificial Intelligence, Hydroponics",
+    "problem_statement": "Monitoring plant growth conditions and identifying abnormal variations in hydroponic systems",
+    "proposed_solution": "Using sensors to collect environmental and nutrient solution parameters and a machine learning model to detect potential plant stress and predict unsuitable growing conditions",
+    "technical_features": [
+      "Sensors for collecting environmental and nutrient solution parameters",
+      "Machine learning model for detecting potential plant stress"
+    ],
+    "components": [
+      "Sensors",
+      "Machine learning model"
+    ],
+    "methods_or_algorithms": [
+      "Data analysis",
+      "Predictive modeling"
+    ],
+    "keywords": [
+      "Hydroponics",
+      "Artificial Intelligence",
+      "Machine learning"
+    ],
+    "short_search_summary": "Monitoring plant growth conditions in hydroponic systems using AI and sensors"
+  },
+  "query_generation": {
+    "queries": [
+      "{'query': 'hydroponic system monitoring', 'rationale': 'This query targets the core problem of monitoring plant growth conditions in hydroponic systems, which is a key aspect of the invention.'}",
+      "{'query': 'machine learning for plant stress detection', 'rationale': 'This query focuses on the proposed mechanism/method of using machine learning to detect potential plant stress and predict unsuitable growing conditions, which is a critical component of the invention.'}",
+      "{'query': 'sensors for hydroponic monitoring', 'rationale': 'This query targets the technical components of the invention, specifically sensors used for collecting environmental and nutrient solution parameters.'}",
+      "{'query': 'artificial intelligence in plant growth', 'rationale': \"This query aims to identify important synonyms related to the problem statement, which is a key aspect of understanding the invention's scope.\"}"
+    ],
+    "query_rationale": [
+      "The query targets the core problem of monitoring plant growth conditions in hydroponic systems, which is a key aspect of the invention.",
+      "This query focuses on the proposed mechanism/method of using machine learning to detect potential plant stress and predict unsuitable growing conditions, which is a critical component of the invention.",
+      "The query targets the technical components of the invention, specifically sensors used for collecting environmental and nutrient solution parameters.",
+      "The query aims to identify important synonyms related to the problem statement, which is a key aspect of understanding the invention's scope."
+    ]
+  },
+  "prior_art_retrieval": {
+    "results": [
+      {
+        "patent_id": "US20220124995A1",
+        "title": "Plant Incubation Apparatuses and Related Methods",
+        "abstract": "A plant incubation apparatus includes upper and lower chambers separated by a partition. Plant roots may be positioned in the lower chamber, and sensors collect information about plant properties and environmental parameters. The apparatus may monitor conditions such as light, temperature, and nutrient solution properties, and use a processor to assess plant conditions and adjust settings.",
+        "claims": "The patent describes plant incubation apparatuses and related methods involving plant chambers, sensors, monitoring of plant or environmental conditions, and associated control functions. Replace this summary with the exact claims extracted from the patent before conducting detailed claim-level analysis.",
+        "url": "https://patents.google.com/patent/US20220124995A1/en",
+        "source": "Google Patents - US20220124995A1",
+        "similarity_score": 43.6,
+        "matched_query_scores": [
+          42.48,
+          44.19,
+          44.35,
+          39.91,
+          36.52,
+          38.47,
+          42.27
+        ]
+      }
+    ],
+    "searched_records": 1,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "device": "cuda",
+    "message": "Scores are retrieval-ranking signals, not legal novelty probabilities."
+  },
+  "novelty_analysis": {
+    "overall_assessment": "Preliminary comparison, limitations in full-text coverage and potential for misinterpretation",
+    "feature_comparison": [
+      {
+        "invention_feature": "Sensors for collecting environmental and nutrient solution parameters",
+        "status": "explicitly_disclosed",
+        "patent_id": "US20220124995A1",
+        "evidence_quote": "plant roots may be positioned in the lower chamber, and sensors collect information about plant properties and environmental parameters.",
+        "explanation": "The patent explicitly states the use of sensors to collect environmental and nutrient solution parameters."
+      },
+      {
+        "invention_feature": "Machine learning model for detecting potential plant stress",
+        "status": "partially_disclosed",
+        "patent_id": "US20220124995A1",
+        "evidence_quote": "The apparatus may monitor conditions such as light, temperature, and nutrient solution properties, and use a processor to assess plant conditions and adjust settings.",
+        "explanation": "The patent mentions the use of a processor to assess plant conditions, but does not explicitly state the use of a machine learning model."
+      },
+      {
+        "invention_feature": "Predictive modeling",
+        "status": "uncertain",
+        "patent_id": "US20220124995A1",
+        "evidence_quote": "",
+        "explanation": "The patent does not explicitly mention predictive modeling, and the term is not found in the provided abstract or claims."
+      }
+    ],
+    "potentially_distinctive_features": [
+      "Use of machine learning for plant stress detection"
+    ],
+    "limitations": [
+      "Limited full-text coverage of the patent",
+      "Potential for misinterpretation due to ambiguity in the text"
+    ],
+    "legal_disclaimer": "This is a preliminary comparison and not a definitive assessment of novelty, inventive step, or patentability."
+  },
+  "report": {
+    "report_title": "Preliminary Prior-Art Analysis: AI-Based Hydroponic Plant Growth Monitoring System",
+    "generated_from": "Uploaded document and locally configured reference collection",
+    "invention_summary": {
+      "title": "AI-Based Hydroponic Plant Growth Monitoring System",
+      "technical_domain": "Artificial Intelligence, Hydroponics",
+      "problem_statement": "Monitoring plant growth conditions and identifying abnormal variations in hydroponic systems",
+      "proposed_solution": "Using sensors to collect environmental and nutrient solution parameters and a machine learning model to detect potential plant stress and predict unsuitable growing conditions",
+      "technical_features": [
+        "Sensors for collecting environmental and nutrient solution parameters",
+        "Machine learning model for detecting potential plant stress"
+      ]
+    },
+    "search_strategy": {
+      "queries": [
+        "{'query': 'hydroponic system monitoring', 'rationale': 'This query targets the core problem of monitoring plant growth conditions in hydroponic systems, which is a key aspect of the invention.'}",
+        "{'query': 'machine learning for plant stress detection', 'rationale': 'This query focuses on the proposed mechanism/method of using machine learning to detect potential plant stress and predict unsuitable growing conditions, which is a critical component of the invention.'}",
+        "{'query': 'sensors for hydroponic monitoring', 'rationale': 'This query targets the technical components of the invention, specifically sensors used for collecting environmental and nutrient solution parameters.'}",
+        "{'query': 'artificial intelligence in plant growth', 'rationale': \"This query aims to identify important synonyms related to the problem statement, which is a key aspect of understanding the invention's scope.\"}"
+      ],
+      "embedding_model": "all-MiniLM-L6-v2",
+      "searched_records": 1
+    },
+    "top_references": [
+      {
+        "patent_id": "US20220124995A1",
+        "title": "Plant Incubation Apparatuses and Related Methods",
+        "similarity_score": 43.6,
+        "url": "https://patents.google.com/patent/US20220124995A1/en",
+        "abstract": "A plant incubation apparatus includes upper and lower chambers separated by a partition. Plant roots may be positioned in the lower chamber, and sensors collect information about plant properties and environmental parameters. The apparatus may monitor conditions such as light, temperature, and nutrient solution properties, and use a processor to assess plant conditions and adjust settings.",
+        "claims": "The patent describes plant incubation apparatuses and related methods involving plant chambers, sensors, monitoring of plant or environmental conditions, and associated control functions. Replace this summary with the exact claims extracted from the patent before conducting detailed claim-level analysis.",
+        "source": "Google Patents - US20220124995A1"
+      }
+    ],
+    "explainable_comparison": [
+      {
+        "invention_feature": "Sensors for collecting environmental and nutrient solution parameters",
+        "status": "explicitly_disclosed",
+        "patent_id": "US20220124995A1",
+        "evidence_quote": "plant roots may be positioned in the lower chamber, and sensors collect information about plant properties and environmental parameters.",
+        "explanation": "The patent explicitly states the use of sensors to collect environmental and nutrient solution parameters."
+      },
+      {
+        "invention_feature": "Machine learning model for detecting potential plant stress",
+        "status": "partially_disclosed",
+        "patent_id": "US20220124995A1",
+        "evidence_quote": "The apparatus may monitor conditions such as light, temperature, and nutrient solution properties, and use a processor to assess plant conditions and adjust settings.",
+        "explanation": "The patent mentions the use of a processor to assess plant conditions, but does not explicitly state the use of a machine learning model."
+      },
+      {
+        "invention_feature": "Predictive modeling",
+        "status": "uncertain",
+        "patent_id": "US20220124995A1",
+        "evidence_quote": "",
+        "explanation": "The patent does not explicitly mention predictive modeling, and the term is not found in the provided abstract or claims."
+      }
+    ],
+    "potentially_distinctive_features": [
+      "Use of machine learning for plant stress detection"
+    ],
+    "preliminary_assessment": "Preliminary comparison, limitations in full-text coverage and potential for misinterpretation",
+    "limitations": [
+      "Limited full-text coverage of the patent",
+      "Potential for misinterpretation due to ambiguity in the text"
+    ],
+    "disclaimer": "This is a preliminary comparison and not a definitive assessment of novelty, inventive step, or patentability."
+  }
+}

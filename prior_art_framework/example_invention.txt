@@ -1,0 +1,3 @@
+Title: AI-Based Hydroponic Plant Growth Monitoring System
+
+This invention proposes an intelligent hydroponic plant growth monitoring system that uses sensors to collect environmental and nutrient solution parameters, such as temperature, pH, electrical conductivity (EC), and humidity. The collected data is analysed to monitor plant growth conditions and identify abnormal variations. A machine learning model may be used to detect potential plant stress and predict unsuitable growing conditions. The system provides alerts and recommendations to help maintain optimal conditions for plant growth and improve hydroponic farming efficiency.
